@@ -6,7 +6,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "Hostname Generator API", version = "2.0", description = "Hostname Information"))
+@OpenAPIDefinition(info = @Info(title = "Hostname Generator API", version = "2.0",
+        description = "Hostname Generator with Params"))
 public class HostnameApplication {
 
     public static void main(String[] args) {
